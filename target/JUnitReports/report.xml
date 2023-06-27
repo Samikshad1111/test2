@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="44.137">
+    <testcase classname="to test the scenario of crate temple with multiple inputes" name="Admin try to create template in corporate" time="43.664">
+        <system-out><![CDATA[Given user login and webapplication.........................................passed
+When user try  to switch account  as a corporate............................passed
+Then user get redirected to corporate.......................................passed
+Given on dashboard admin click on TEMPLATE..................................passed
+And Admin  Enter Device  device1............................................passed
+And Admin click on Add features.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

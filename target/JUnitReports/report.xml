@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="44.137">
-    <testcase classname="to test the scenario of crate temple with multiple inputes" name="Admin try to create template in corporate" time="43.664">
-        <system-out><![CDATA[Given user login and webapplication.........................................passed
-When user try  to switch account  as a corporate............................passed
-Then user get redirected to corporate.......................................passed
-Given on dashboard admin click on TEMPLATE..................................passed
-And Admin  Enter Device  device1............................................passed
-And Admin click on Add features.............................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="40.168">
+    <testcase classname="Login Fuctionality to test by admin , member and enterprise user /admin" name="To test login for  corporate" time="38.214">
+        <system-out><![CDATA[Given Open web browser......................................................passed
+And Enter corporate url.....................................................passed
+And Enter username as dhi-siddhant..........................................passed
+When Click on sign in.......................................................passed
+Then User  get redirect to otp page.........................................passed
+And Click on try another to login with password.............................passed
+And Enter password as Siddhant1!............................................passed
+When Click on verify........................................................passed
+Then User redirect to dashboard.............................................passed
+Then user logout and quitebrowser...........................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
